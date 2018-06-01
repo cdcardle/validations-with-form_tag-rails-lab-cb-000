@@ -19,4 +19,3 @@ class AuthorsController < ApplicationController
     params.permit(:name, :email, :phone_number)
   end
 end
-
