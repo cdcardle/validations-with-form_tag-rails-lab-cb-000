@@ -1,5 +1,5 @@
-Author.destroy
-Post.destroy
+Author.destroy_all
+Post.destroy_all
 
 Author.create!(
   name: "Ada Lovelace", email: "ada@the-history-of-programming.com", phone_number: "5558023384"
